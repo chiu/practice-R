@@ -21,20 +21,6 @@ shinyUI(bootstrapPage(
     Shiny.onInputChange("random_number", number);
     });
     '
-  )#,
-  # tags$script(
-  #   '
-  #   $(document).on("keypress", function (e) {
-  #   var number = Math.random();
-  #   Shiny.onInputChange("random_number", number);
-  #   });
-  #   '
-  # )
-  # tags$script('
-  #             document.getElementById("mydiv").onclick = function() {
-  #             var number = Math.random();
-  #             Shiny.onInputChange("random_number", number);
-  #             };
-  #             ')
+  )
   
   ))
