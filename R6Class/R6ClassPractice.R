@@ -6,7 +6,7 @@ Person <- R6Class(
   "Person",
   public = list(
     name = NA,
-    hair = NA,+
+    hair = NA,
     initialize = function(name, hair) {
       if (!missing(name))
         self$name <- name
