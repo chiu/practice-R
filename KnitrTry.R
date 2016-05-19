@@ -1,0 +1,7 @@
+<<my-label, eval=TRUE, dev='png'>>=
+  set.seed(1213)  # for reproducibility
+x = cumsum(rnorm(100))
+mean(x)  # mean of x
+plot(x, type = 'l')  # Brownian motion
+@
+  
